@@ -16,10 +16,11 @@ function nowServing(deliLine){
 
 
 function currentLine(deliLine){
-
-  for(let i = deliLine.length; i > 0; i--) {
+let k = deliLine.length
+  for(let i = 0; k > 0; i--) {
     let newLine = []
     newLine.push(`${(i+1)}. ${deliLine[i]}`)
+    k--
       return `The line is currently: ` + newLine
   }
 
