@@ -21,7 +21,7 @@ let k = deliLine.length
     let newLine = []
     newLine.push(`${(i+1)}. ${deliLine[i]}`)
     k--
-      return `The line is currently: ` + newLine
+      
   }
-
+   return `The line is currently: ` + newLine
 }
