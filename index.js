@@ -21,6 +21,4 @@ let newLine = []
     newLine.push(`${(i+1)}. ${deliLine[i]}`)
   }
    return `The line is currently: ` + newLine
- }
-
 }
