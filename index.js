@@ -17,8 +17,9 @@ function nowServing(deliLine){
 
 function currentLine(deliLine){
 let k = deliLine.length
+let newLine = []
   for(let i = 0; k > 0; i--) {
-    let newLine = []
+    
     newLine.push(`${(i+1)}. ${deliLine[i]}`)
     k--
 
