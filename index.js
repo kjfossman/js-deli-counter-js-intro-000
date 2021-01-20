@@ -18,7 +18,12 @@ function nowServing(deliLine){
 function currentLine(deliLine){
 let newLine = []
   for(let i = 0; i < deliLine.length; i++) {
+    if(deliLine.length > 0){
     newLine.push(`${(i+1)}. ${deliLine[i]}`)
   }
    return `The line is currently: ` + newLine
+ } else{
+   return 'The line is currently empty.'
+ } 
+       
 }
